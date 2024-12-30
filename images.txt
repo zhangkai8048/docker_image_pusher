@@ -4,5 +4,6 @@
 #xhofe/alist:latest
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
-kubeskoop/agent:v1.0.0-rc.1
-kubeskoop/controller:v1.0.0-rc.1
+#kubeskoop/agent:v1.0.0-rc.1
+#kubeskoop/controller:v1.0.0-rc.1
+golang:1.23-alpine3.20
