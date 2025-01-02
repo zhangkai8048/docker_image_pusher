@@ -6,4 +6,11 @@
 #--platform=linux/arm64 xiaoyaliu/alist
 #kubeskoop/agent:v1.0.0-rc.1
 #kubeskoop/controller:v1.0.0-rc.1
-golang:1.23-alpine3.20
+#golang:1.23-alpine3.20
+docker.io/bitpoke/mysql-operator:latest
+docker.io/bitpoke/mysql-operator-sidecar-5.7:latest
+docker.io/bitpoke/mysql-operator-sidecar-8.0:latest
+docker.io/prom/mysqld-exporter:v0.13.0
+docker.io/bitpoke/mysql-operator-orchestrator:latest
+percona:5.7
+percona:8.0
