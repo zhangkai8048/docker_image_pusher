@@ -7,10 +7,10 @@
 #kubeskoop/agent:v1.0.0-rc.1
 #kubeskoop/controller:v1.0.0-rc.1
 #golang:1.23-alpine3.20
-docker.io/bitpoke/mysql-operator:latest
-docker.io/bitpoke/mysql-operator-sidecar-5.7:latest
-docker.io/bitpoke/mysql-operator-sidecar-8.0:latest
+bitpoke/mysql-operator:0.7.0-amd64
+bitpoke/mysql-operator-orchestrator:0.7.0-amd64
+bitpoke/mysql-operator-sidecar-8.0:0.7.0
+bitpoke/mysql-operator-sidecar-5.7:0.7.0
 docker.io/prom/mysqld-exporter:v0.13.0
-docker.io/bitpoke/mysql-operator-orchestrator:latest
 percona:5.7
 percona:8.0
